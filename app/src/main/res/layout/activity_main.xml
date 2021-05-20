@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/box_two_text"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
