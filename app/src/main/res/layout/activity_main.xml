@@ -24,7 +24,7 @@
         android:layout_height="130dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="@string/box_two"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
 
