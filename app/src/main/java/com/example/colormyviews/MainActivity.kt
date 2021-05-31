@@ -33,5 +33,8 @@ class MainActivity : AppCompatActivity() {
         val boxThreeText = findViewById<TextView>(R.id.box_three_text)
         val boxFourText = findViewById<TextView>(R.id.box_four_text)
         val boxFiveText = findViewById<TextView>(R.id.box_five_text)
+
+        // Get a reference to Constraint Layout as defined in activity_main.xml
+        val rootConstraintLayout = findViewById<View>(R.id.constraint_layout)
     }
 }
