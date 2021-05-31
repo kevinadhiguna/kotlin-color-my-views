@@ -97,6 +97,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/label_text"
-        app:layout_constraintTop_toBottomOf="@+id/box_two_text" /> <!-- Designtime attribute :  Design-time attributes are used and applied only during the layout design, not at runtime. When you run the app, the design-time attributes are ignored. -->
+        app:layout_constraintTop_toBottomOf="@+id/box_two_text"
+        app:layout_constraintVertical_bias="0.0" /> <!-- Designtime attribute :  Design-time attributes are used and applied only during the layout design, not at runtime. When you run the app, the design-time attributes are ignored. -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
