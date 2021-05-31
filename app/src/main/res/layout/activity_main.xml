@@ -83,6 +83,14 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="287dp" /> <!-- Designtime attribute :  Design-time attributes are used and applied only during the layout design, not at runtime. When you run the app, the design-time attributes are ignored. -->
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="342dp" /> <!-- Designtime attribute :  Design-time attributes are used and applied only during the layout design, not at runtime. When you run the app, the design-time attributes are ignored. -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
