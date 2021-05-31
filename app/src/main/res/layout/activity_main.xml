@@ -108,6 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_wide"
         android:text="@string/button_red"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/yellow_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
