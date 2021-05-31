@@ -90,12 +90,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
         android:fontFamily="@font/roboto"
         android:text="@string/tap_the_boxes_and_buttons"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/label_text" /> <!-- Designtime attribute :  Design-time attributes are used and applied only during the layout design, not at runtime. When you run the app, the design-time attributes are ignored. -->
+        app:layout_constraintStart_toEndOf="@+id/label_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_two_text" /> <!-- Designtime attribute :  Design-time attributes are used and applied only during the layout design, not at runtime. When you run the app, the design-time attributes are ignored. -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
