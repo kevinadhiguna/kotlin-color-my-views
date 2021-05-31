@@ -80,6 +80,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
         android:text="@string/how_to_play"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="18dp"
         tools:layout_editor_absoluteY="215dp" />
 
