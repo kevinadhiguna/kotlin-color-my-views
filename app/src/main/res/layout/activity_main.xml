@@ -89,6 +89,7 @@
         android:id="@+id/info_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
         android:text="TextView"
         tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="342dp" /> <!-- Designtime attribute :  Design-time attributes are used and applied only during the layout design, not at runtime. When you run the app, the design-time attributes are ignored. -->
