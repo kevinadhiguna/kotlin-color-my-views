@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
             R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
             R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
             R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
+
+            // Set background color to light gray when background is touched
+            else -> view.setBackgroundColor(Color.LTGRAY)
         }
     }
 }
