@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         val yellowButton = findViewById<Button>(R.id.yellow_button)
 
         // Make a list of views
-        val clickableViews: List<View> = listOf(boxOneText, boxTwoText, boxThreeText, boxFourText, boxFiveText, rootConstraintLayout)
+        val clickableViews: List<View> = listOf(boxOneText, boxTwoText, boxThreeText, boxFourText, boxFiveText, rootConstraintLayout, redButton, greenButton, yellowButton)
 
         for (item in clickableViews) {
             item.setOnClickListener { makeColored(it) }
