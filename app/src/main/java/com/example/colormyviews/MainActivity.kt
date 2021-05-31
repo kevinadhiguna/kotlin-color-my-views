@@ -36,5 +36,8 @@ class MainActivity : AppCompatActivity() {
 
         // Get a reference to Constraint Layout as defined in activity_main.xml
         val rootConstraintLayout = findViewById<View>(R.id.constraint_layout)
+
+        // Make a list of views
+        val clickableViews: List<View> = listOf(boxOneText, boxTwoText, boxThreeText, boxFourText, boxFiveText, rootConstraintLayout)
     }
 }
