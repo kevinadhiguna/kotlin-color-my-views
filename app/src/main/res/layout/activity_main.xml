@@ -112,8 +112,7 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/yellow_button"
         app:layout_constraintEnd_toStartOf="@+id/yellow_button"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="667dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/yellow_button"
