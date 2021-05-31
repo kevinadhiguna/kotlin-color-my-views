@@ -78,7 +78,7 @@
         android:id="@+id/label_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/how_to_play"
         tools:layout_editor_absoluteX="18dp"
         tools:layout_editor_absoluteY="215dp" />
 
