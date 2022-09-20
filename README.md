@@ -8,4 +8,5 @@ A neoplasticism painting style Android app that demonstrates how to use `Constra
 
 🚧 Currently an unresolved issue needs help :)
 
-[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/kotlin-color-my-views)](https://github.com/kevinadhiguna)
+
+![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=kotlin-color-myviews&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
